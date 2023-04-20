@@ -8,6 +8,7 @@ body {
   background-color: white;
   border-radius: 20px;
 }
+
 #header {
   display: flex;
   margin: 5%;
@@ -74,6 +75,7 @@ body {
 
 #lowercontainer {
   margin: 5%;
+  padding-bottom: 5%;
 }
 
 #lowercontainer h2 {
@@ -86,12 +88,32 @@ body {
   justify-content: space-between;
 }
 
+#college i {
+  display: flex;
+  align-items: center;
+}
+
 #project {
+}
+
+.boxshadow {
   border-style: solid;
   border-width: 2px;
   border-color: lightgrey;
   box-shadow: 2px 2px 5px #007ced;
   padding: 2%;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+#skillrow {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+progress {
+  width: 40%;
+}
+
+progress::-webkit-progress-value {
+  background: #007ced;
 }
